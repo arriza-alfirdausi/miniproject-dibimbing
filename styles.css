@@ -1,0 +1,93 @@
+/* Universal */
+a{
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  text-size-adjust: 50%;
+  text-decoration: none;
+  }
+
+/* Header */
+.header{
+  font-family: 'Roboto Mono', monospace;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #74959A, #F1E0AC, #98B4AA);
+  height: 60px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  }
+
+  @media(max-width:991.88px){
+    .bg-color-soso{
+      background-image: linear-gradient(to right, #74959A, #F1E0AC, #98B4AA);
+      padding: 5px;
+      margin: 5px;
+      border-radius: 15px;
+    }
+
+  .navbar-collapse.collapse {
+      z-index: 100;
+    }
+  }
+
+/* Body */
+.alert.alert-info{
+  font-family: 'Roboto Mono', monospace;
+  margin: 5px
+  }
+
+.container{
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  justify-content: center;
+  }
+      
+.content{
+  font-family: 'Roboto Mono', monospace;
+  display: grid;
+  grid-template-columns: repeat(5, 15%);
+  gap: 2px;
+  padding: 10px;
+  }
+      
+.content2{
+  font-family: 'Roboto Mono', monospace;
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  margin-top: 10px;
+  padding: 10px;
+  }
+
+.card{
+  font-family: 'Roboto Mono', monospace;
+  background-color: #495371;
+  color: whitesmoke;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+  }
+
+.card2{
+  font-family: 'Roboto Mono', monospace;
+  background-color: #98B4AA;
+  color: whitesmoke;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  }
+
+.modal-dialog{
+  font-family: 'Roboto Mono', monospace;
+  }
+
+.footer{
+  font-family: 'Roboto Mono', monospace;
+  margin: 40px;
+  }
