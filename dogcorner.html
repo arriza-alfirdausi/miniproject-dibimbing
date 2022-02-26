@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canine Companions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/Assignments/Mini Project/styles.css" />
+</head>
+<body>
+<div class="header">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="/Assignments/Mini Project/landingpage.html">Companion Corner</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="bg-color-soso">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/Assignments/Mini Project/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/Assignments/Mini Project/aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Companions
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-image: linear-gradient(to right, #74959A, #98B4AA, #F1E0AC); border-radius: 20px;">
+                <li><a class="dropdown-item text-white" href="/Assignments/Mini Project/catcorner.html">Feline</a></li>
+                <li><a class="dropdown-item text-white" href="/Assignments/Mini Project/dogcorner.html">Canine</a></li>
+              </ul>
+            </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+    <div class="container">
+      <div class="content">
+        <div class="card" style="width: 14rem;">
+          <img style="border-radius: 20px;" src="./images/dog series 1/dalmatian thumbnail.png" class="card-img-top" alt="Dalmatian">
+          <div class="card-body">
+            <p class="card-text">One of the most instantly recognizable dog</p>
+            <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#dalmatiandetail">More Info</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="card" style="width: 14rem;">
+          <img style="border-radius: 20px;" src="./images/dog series 1/german shepherd thumbnail.png" class="card-img-top" alt="German Shepherd">
+          <div class="card-body">
+            <p class="card-text">The steadfastly loyal and protective canine</p>
+            <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#germanshepdetail">More Info</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="card" style="width: 14rem;">
+          <img style="border-radius: 20px;" src="./images/dog series 1/pharaoh hound thumbnail.png" class="card-img-top" alt="Pharaoh Hound">
+          <div class="card-body">
+            <p class="card-text">Affectionate and energetic ancient hound</p>
+            <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#pharaohdetail">More Info</a>
+          </div>
+        </div>    
+      </div>
+
+      <div class="content">
+        <div class="card" style="width: 14rem;">
+          <img style="border-radius: 20px;" src="./images/dog series 1/shiba inu thumbnail.png" class="card-img-top" alt="Shiba Inu">
+          <div class="card-body">
+            <p class="card-text">Japanese dog breed that like their own pace</p>
+            <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#sheebdetail">More Info</a>
+          </div>
+        </div>    
+      </div>
+
+      <div class="content">
+        <div class="card" style="width: 14rem;">
+          <img style="border-radius: 20px;" src="./images/dog series 1/siberian husky thumbnail.png" class="card-img-top" alt="Siberian Husky">
+          <div class="card-body">
+            <p class="card-text">"Striking" dog breed that is born to run</p>
+            <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#huskydetail">More Info</a>
+          </div>
+        </div>    
+      </div>
+    </div>
+
+    <!-- BAGIAN INI SENGAJA DI COMMENT (UN-COMMENT PADA 1 MARET 2022) -->
+    <!-- <div class="container">
+      <div class="content">
+        <div class="card" style="width: 14rem;">
+          <img style="border-radius: 20px;" src="./images/dog series 2/pitties thumbnail.png" class="card-img-top" alt="Scottish Terrier">
+          <div class="card-body">
+            <p class="card-text">Loving, sweet, and misunderstood dog breed</p>
+            <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#pittiesdetail">More Info</a>
+          </div>
+        </div>    
+      </div>
+
+      <div class="content">
+        <div class="card" style="width: 14rem;">
+          <img style="border-radius: 20px;" src="./images/dog series 2/basenji thumbnail.png" class="card-img-top" alt="Basenji">
+          <div class="card-body">
+            <p class="card-text">The "barkless" dog with a strong hunting drive</p>
+            <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#basenjidetail">More Info</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="card" style="width: 14rem;">
+          <img style="border-radius: 20px;" src="./images/dog series 2/beagle thumbnail.png" class="card-img-top" alt="Beagle">
+          <div class="card-body">
+            <p class="card-text">Playful hound who enjoy long meandering walks</p>
+            <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#beagledetail">More Info</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="card" style="width: 14rem;">
+          <img style="border-radius: 20px;" src="./images/dog series 2/great dane thumbnail.png" class="card-img-top" alt="Great Dane">
+          <div class="card-body">
+            <p class="card-text">The gentle, loyal, and loving gargantuan canine</p>
+            <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#scoobydetail">More Info</a>
+          </div>
+        </div>    
+      </div>
+
+      <div class="content">
+        <div class="card" style="width: 14rem;">
+          <img style="border-radius: 20px;" src="./images/dog series 2/greyhound thumbnail.png" class="card-img-top" alt="Greyhound">
+          <div class="card-body">
+            <p class="card-text">Graceful dog known for their sprint ability</p>
+            <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#hounddetail">More Info</a>
+          </div>
+        </div>    
+      </div>
+    </div> -->
+
+<!-- MODAL DALMATIAN-->
+<div class="modal fade" id="dalmatiandetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"><b>Dalmatian</b></h5>
+      </div>
+      <div class="modal-body">
+          <img style="width: 100%;" src="./images/dog series 1/dalmatian.png">
+      </div>
+      <div class="modal-body">
+        <p>Underneath those spots is a lean, muscular build. Dalmatians are on the larger end of medium-sized dog breeds, standing at 48.3 to 61 centimeters and weighing around 20.4 and 31.7 kilograms when fully grown.</p>
+        <p>|<i>credit: Lee Hao Chih / getty</i></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+<!-- MODAL GERMAN SHEPHERD-->
+<div class="modal fade" id="germanshepdetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"><b>German Shepherd</b></h5>
+      </div>
+      <div class="modal-body">
+          <img style="width: 100%;" src="./images/dog series 1/german shepherd.png">
+      </div>
+      <div class="modal-body">
+        <p>The German Sheperd have an alert-yet-kind expression marked by their perked-up ears and dark, almond-shaped eyes. Weighing around 22.7 to 40.8 kilograms, these large dogs have an unmistakable presence.</p>
+        <p>|<i>credit: Legolin / getty</i></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL PHARAOH HOUND-->
+<div class="modal fade" id="pharaohdetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"><b>Pharaoh Hound</b></h5>
+      </div>
+      <div class="modal-body">
+          <img style="width: 100%;" src="./images/dog series 1/pharaoh hound.png">
+      </div>
+      <div class="modal-body">
+        <p>Pharaoh hounds are graceful, elegant dogs with sleek, shiny coats. At around 20 to 25 kilograms and 53 to 63.5 centimeters tall, they are adaptable medium-sized dogs as long as they can burn off some steam with daily exercise.</p>
+        <p>|<i>credit: Kate / adobe stock</i></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL SHIBA INU-->
+<div class="modal fade" id="sheebdetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"><b>Shiba Inu</b></h5>
+      </div>
+      <div class="modal-body">
+          <img style="width: 100%;" src="./images/dog series 1/shiba inu.png">
+      </div>
+      <div class="modal-body">
+        <p>Fox-like in appearance, the Shiba Inu's classic color is orangey-red with variations of black and tan, cream, and sesame (black-tipped hairs on a red background). Male Shiba Inu tend to be bigger than their female counterparts.</p>
+        <p>|<i>credit: Terje Haheim / getty</i></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL SIBERIAN HUSKY-->
+<div class="modal fade" id="huskydetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"><b>Siberian Husky</b></h5>
+      </div>
+      <div class="modal-body">
+          <img style="width: 100%;" src="./images/dog series 1/siberian husky.png">
+      </div>
+      <div class="modal-body">
+        <p>Built for speed and endurance, a Siberian Husky dog is compact, standing about 58 centimeters high and weighing between 15.9 and 27 kilograms. Their coats feature various tones and combination of red, gray, black, and snow white.</p>
+        <p>|<i>credit: Belyaaa / adobe stock</i></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL AMERICAN PIT BULL TERRIER-->
+<div class="modal fade" id="pittiesdetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"><b>American Pit Bull Terrier</b></h5>
+      </div>
+      <div class="modal-body">
+          <img style="width: 100%;" src="./images/dog series 2/pitties.png">
+      </div>
+      <div class="modal-body">
+        <p>Commonly known as "pitties", these canines come in many coat colors and patterns like blue, red, black, white, fawn to name a few. They can also vary dramatically in size, from 15.8 to 31.7 kilograms.</p>
+        <p>|<i>credit: Evdoha / adobe stock</i></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL BASENJI-->
+<div class="modal fade" id="basenjidetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"><b>Basenji</b></h5>
+      </div>
+      <div class="modal-body">
+          <img style="width: 100%;" src="./images/dog series 2/basenji.png">
+      </div>
+      <div class="modal-body">
+        <p>The Basenji is a primitive hunting dog breed in a lean—yet strong—and compact size. Their short coat is fine in texture and comes in four main colorways: chestnut red, black, tricolor (black, tan, and white), or brindle (black stripes on a chestnut base).</p>
+        <p>|<i>credit: Photographs by Maria Itina / getty</i></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL BEAGLE-->
+<div class="modal fade" id="beagledetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"><b>Beagle</b></h5>
+      </div>
+      <div class="modal-body">
+          <img style="width: 100%;" src="./images/dog series 2/beagle.png">
+      </div>
+      <div class="modal-body">
+        <p>Easily recognizable by their big brown eyes and square floppy ears, the beagles are small but mighty. There are two types of beagles: A medium-size version (9 to 15.9 kilograms) and a smaller version (less than 9 kilograms).</p>
+        <p>|<i>credit: Lenyfoto Pet Photography / getty</i></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL GREAT DANE-->
+<div class="modal fade" id="scoobydetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"><b>Great Dane</b></h5>
+      </div>
+      <div class="modal-body">
+          <img style="width: 100%;" src="./images/dog series 2/great dane.png">
+      </div>
+      <div class="modal-body">
+        <p>Nicknamed the "gentle giants", a Great Dane can grow to be the size of a small horse. They can have height spans 71 to 81.3 centimeters at the shoulder, and their weight can be anywhere between 49.9 and 79.4 kilograms.</p>
+        <p>|<i>credit: Bigandt_Photography / getty</i></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL GREYHOUND-->
+<div class="modal fade" id="hounddetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"><b>Greyhound</b></h5>
+      </div>
+      <div class="modal-body">
+          <img style="width: 100%;" src="./images/dog series 2/greyhound.png">
+      </div>
+      <div class="modal-body">
+        <p>Greyhound will happily lounge around the house or be a companion on a leisure walk, hence the nickname "65-kph-couch potatoes". These large hounds weigh between 27 and 31.7 kilograms, but carry almost no body fat for aerodynamic build.</p>
+        <p>|<i>credit: Westend61 / getty</i></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/Assignments/Mini Project/landingpage.html">Companion Corner</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Canines</li>
+  </ol>
+</nav>
+</body>
+</html>
